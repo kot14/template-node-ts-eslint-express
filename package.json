@@ -2,10 +2,10 @@
   "name": "node-ts-template",
   "version": "0.0.1",
   "description": "This is a default template for setting up a Node.js project with TypeScript, ESLint, and Express. It includes a basic configuration and an example environment file.",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "tsc && node build/app.js",
-    "dev": "nodemon src/app.ts",
+    "start": "tsc && node build/index.js",
+    "dev": "nodemon src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Yaroslav Mostovyi",
